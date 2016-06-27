@@ -4,6 +4,13 @@ class Person
 		puts "Hello #{string}"
 	end
 
+	def running
+		puts "whew! I'm tired"
+	end
+
+
 end
 
-name("Manish")
+person = Person.new
+person.name("Manish")
+person.running
