@@ -4,6 +4,13 @@ class Person
 		puts "Hello #{string}"
 	end
 
+  def name(string)
+    puts "This is a conflict, #{string}!"
+  end
+
 end
 
-name("Manish")
+person = Person.new
+
+
+person.name("Jen")
